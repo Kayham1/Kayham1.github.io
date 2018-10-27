@@ -1,0 +1,25 @@
+p {
+	font-size: 480px;
+}
+
+body{
+	background-color: #808080;
+}
+
+.img {
+	height: calc(95vw / 4 / 16 * 9);
+	max-height: calc(1200px / 4 / 16 * 9 - 10px);
+	width: calc(100% / 4 - 10px);
+	background-position: center;
+	background-size: cover;
+	margin: 5px;
+}
+
+.main {
+	width: 111%;
+	max-width: 1200px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
